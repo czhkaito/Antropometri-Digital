@@ -11,14 +11,7 @@ import { getDatabase, ref, onValue, set, get } from 'firebase/database';
 
 // Firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyCvP4_sYu4yShoZCnvSLAJm_XzzSYoJe0s",
-  authDomain: "antropometri-digital.firebaseapp.com",
-  databaseURL: "https://antropometri-digital-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "antropometri-digital",
-  storageBucket: "antropometri-digital.firebasestorage.app",
-  messagingSenderId: "1078572589407",
-  appId: "1:1078572589407:web:3e602527748e1edcd256ea",
-  measurementId: "G-FH2KY1CX6H"
+  // Add your own config
 };
 
 // Pastikan hanya menginisialisasi aplikasi jika belum ada
